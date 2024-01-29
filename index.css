@@ -97,3 +97,12 @@ body{
 .card div:first-child{
     border-bottom: 1px solid #f2f5f9;
 }
+
+@media (min-width: 640px) {
+    body {
+        padding: 0;
+        display: grid;
+        place-items: center;
+        height: 100vh;
+    }
+}
